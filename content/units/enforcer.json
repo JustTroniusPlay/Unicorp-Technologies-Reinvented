@@ -1,0 +1,63 @@
+ {
+ "name": "Enforcer",
+ "flying": true,
+ "description": "Unicorp's builder ship, heavily armored but slow, equipped with various effects fields to help allies.",
+ "drag": 0.08,
+ "hitsize": 35,
+ "rotateSpeed": 2.2,
+ "accel": 0.13,
+ "speed": 0.5,
+ "health": 3350,
+ "armor": 7,
+ "circleTarget": "true",
+ "lowAltitude": true,
+ "engineSize": 5,
+ "engineOffset": 8.5,
+ "range": 120,
+ "isCounted": false,
+ "mineTier": 3,
+ "mineSpeed": 3.25,
+ "buildSpeed": 5.5,
+ "itemCapacity": 100,
+ "abilities": 
+       [
+       {
+        "type": "mindustry.entities.abilities.ForceFieldAbility",
+        "radius": 80,
+        "regen": 5,
+        "max": 2500,
+        "cooldown": 660
+        },
+        {
+            "type": "mindustry.entities.abilities.RepairFieldAbility",
+            "amount": 50,
+            "reload": 200,
+            "range": 100
+        },
+        {
+            "type": "mindustry.entities.abilities.ShieldRegenFieldAbility",
+            "amount": 10,
+            "max": 150,
+            "reload": 200,
+            "range": 100
+        },
+        {
+            "type": "mindustry.entities.abilities.StatusFieldAbility",
+            "effect": "overclock",
+            "duration": 30,
+            "reload": 300,
+            "range": 100
+        }
+        ],
+ "research":
+ {
+ "parent": "andromeda",
+ "requirements": 
+ [
+       silicon/7000,
+       plastanium/5500,
+       thorium/6000,
+       surge-alloy/500
+ ]
+ }
+}

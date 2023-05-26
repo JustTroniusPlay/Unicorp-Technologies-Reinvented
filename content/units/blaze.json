@@ -1,0 +1,66 @@
+{
+ "name": "Blaze",
+ "flying": true,
+ "description": "Following the bankruptcy of the AdvancedCombat-Inventions ltd, Unicorp was able to buy some of their technology for its own use.",
+ "drag": 0.07,
+ "hitsize": 8,
+ "lowAltitude": true,
+ "accel": 0.1,
+ "speed": 3.3,
+ "health": 360,
+ "engineSize": 2.5,
+ "engineOffset": 5,
+ "rotateSpeed": 3,
+ "range": 80,
+ "isCounted": false,
+ "armor": 5,
+ "itemCapacity": 5,
+ "weapons":
+ [
+ {
+	"name": "Furious",
+    "x": 4.5,
+  	"reload": 8,
+  	"ejectEffect": "none",
+    "mirror": "true",
+    "alternate": "true",
+  	"recoilAmount": 20,
+  	"rotate": "true",
+  	"shootSound": "flame",
+    "shots": 2,
+  	"bullet": 
+	{
+    	"type": "MissileBulletType",
+    	"length": 25,
+        "speed": 1.8,
+    	"damage": 15.0,
+        "homingPower": 0,
+    	"width": 9,
+    	"lifeTime": 2300,
+        "hitEffect": "burning",
+        "despawnEffect": "burning",
+        "status": "burning", 
+    	"serrationLenScl": 2,
+    	"serrationSpaceOffset": 1,
+    	"serrationFadeOffset": 0,
+    	"serrations": 15,
+    	"serrationWidth": 60,
+    	"fromColor": "d06b53",
+    	"toColor": "ffa665",
+    		
+		"shootEffect": "shootSmallFlame",
+		"smokeEffect": "shootSmallSmoke"
+	}
+ }
+ ],
+ "research":
+ {
+	"parent": "surge",
+	"requirements": 
+	[
+    	silicon/1800,
+    	lead/1200
+	]
+ },
+ "details": "Unicorp has made some modifications and changes for Blaze. Taking Surge as a basis, now Blaze uses flame weapons in his arsenal, which also makes him a more advanced version of Surge, capable of not only protecting the owner from weak threats, but even going into battle organizing sabotages."
+}

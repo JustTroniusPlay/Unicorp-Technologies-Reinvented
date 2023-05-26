@@ -1,0 +1,67 @@
+{
+  "name": "Surge",
+  "flying": true,
+  "type": "flying",
+  "description": "Unicorp's defense drone. Unicorp always finds a way around the problem, even if it comes down to destruction. Mainly to destruction. Pretty frigale. Better use in groups.",
+  "drag": 0.07,
+  "range": 60,
+  "hitSize": 8,
+  "accel": 0.1,
+  "speed": 2.8,
+  "health": 120,
+  "lowAltitude": true,
+  "engineSize": 3, 
+  "engineOffset": 5.5,
+  "rotateSpeed": 4.0,
+  "armor": 2,
+  "itemCapacity": 20,
+  "immunities": 
+  [
+		"burning",
+		"melting"
+	],
+  "weapons":
+    [
+      {
+        "name": "Flamethrower",
+        "x": 0,
+        "y": 3,
+        "top": false,
+        "shootY": 2,
+        "mirror": false,
+        "ejectEffect": "none",
+        "rotate": false,
+        "shootSound": "flame",
+        "reload": 8,
+        "shootCone": 30,
+        "bullet": 
+        {
+          "type": "BulletType",
+          "damage": 6,
+          "keepVelocity": false,
+          "lifetime": 10,
+          "speed": 6,
+          "range": 60,
+          "hitSize": 6,
+          "pierce": true,
+          "pierceBuilding": false,
+          "statusDuration": 240,
+          "shootEffect": "shootSmallFlame",
+          "hitEffect": "hitFlameSmall",
+          "despawnEffect": "none",
+          "status": "burning",
+          "hittable": false,
+          "reflectable": false
+        }
+      }
+  ],
+  "research": 
+  {
+    "parent": "unicorp-assembler",
+    "requirements": 
+    [
+      coal/1500
+      silicon/1200
+    ]
+  }
+}

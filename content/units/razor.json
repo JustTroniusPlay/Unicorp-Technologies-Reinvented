@@ -1,0 +1,129 @@
+{
+ "name": "Razor",
+ "flying": true,
+ "description": "Unicorp's sniper ship. The best way to catch your enemies before they even do damage.",
+ "drag": 0.08,
+ "hitsize": 35,
+ "accel": 0.13,
+ "speed": 1.7,
+ "health": 5500,
+ "rotateSpeed": 1.7,
+ "armor": 5,
+ "engineSize": 5,
+ "lowAltitude": true,
+ "engineOffset": 10.5,
+ "range": 120,
+ "isCounted": false,
+ "mineTier": 2,
+ "mineSpeed": 3,
+ "itemCapacity": 50,
+ "weapons":
+  [
+      {
+        "name": "railcannon",
+        "reload": 200,
+        "x": 0,
+        "y": 5,
+        "shots": 1,
+        "mirror": false,
+        "shootY": 0,
+        "rotate": false,
+        "spacing": 1,
+        "shootSound": "laserblast",
+        "ejectEffect": "lancerLaserCharge",
+        "bullet": 
+        {
+            "type": "LaserBulletType",
+            "damage": 120,
+            "speed": 0,
+            "width": 10,
+            "length": 500,
+            "colors": [d06b53, ffa665],
+            "inaccuracy": 1,
+            "lifetime": 50,
+            "splashDamageRadius": 0.5,
+            "cooldownTime": 150,
+            "buildingDamageMultiplier": 0.10
+        },
+        "shootEffect": "lancerLaserShoot",
+    	  "smokeEffect": "lancerLaserShootSmoke"
+      },
+      {
+        "name": "razor-flame",
+        "x": 9,
+        "y": -3,
+        "top": false,
+        "shootY": 0,
+        "shootX": 0,
+        "mirror": true,
+        "ejectEffect": "none",
+        "rotate": true,
+        "shootSound": "flame",
+        "reload": 8,
+        "shootCone": 30,
+        "controllable": false,
+        "autoTarget": true,
+        "bullet": 
+        {
+          "type": "BulletType",
+          "damage": 6,
+          "keepVelocity": false,
+          "lifetime": 8,
+          "speed": 4,
+          "range": 32,
+          "hitSize": 6,
+          "pierce": true,
+          "pierceBuilding": false,
+          "shootEffect": "shootSmallFlame",
+          "hitEffect": "hitFlameSmall",
+          "despawnEffect": "none",
+          "hittable": false,
+          "reflectable": false
+        }
+      },
+      {
+        "name": "razor-flame",
+        "x": 8,
+        "y": -12,
+        "top": false,
+        "shootY": 0,
+        "shootX": 0,
+        "mirror": true,
+        "ejectEffect": "none",
+        "rotate": true,
+        "shootSound": "flame",
+        "reload": 8,
+        "shootCone": 30,
+        "controllable": false,
+        "autoTarget": true,
+        "bullet": 
+        {
+          "type": "BulletType",
+          "damage": 6,
+          "keepVelocity": false,
+          "lifetime": 8,
+          "speed": 4,
+          "range": 32,
+          "hitSize": 6,
+          "pierce": true,
+          "pierceBuilding": false,
+          "shootEffect": "shootSmallFlame",
+          "hitEffect": "hitFlameSmall",
+          "despawnEffect": "none",
+          "hittable": false,
+          "reflectable": false
+        }
+      }
+  ],
+ "research":
+ {
+  "parent": "blaze",
+  "requirements":
+  [
+    silicon/8000,
+    titanium/6500,
+    thorium/7000,
+    phase-fabric/500
+  ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+ "name": "Backwater",
+ "flying": true,
+ "description": "Unicorp's second model of the mining drone. Now it's capable of defending area of excavation if you need.",
+ "drag": 0.07,
+ "range": 80,
+ "hitsize": 25,
+ "accel": 0.1,
+ "speed": 1.65,
+ "health": 500,
+ "engineSize": 4,
+ "engineOffset": 7.5,
+ "rotateSpeed": 1.65,
+ "isCounted": false,
+ "mineHardnessScaling": true,
+ "mineTier": 5,
+ "mineSpeed": 8.5,
+ "armor": 4,
+ "itemCapacity": 200,
+ "lowAltitude": true,
+ "weapons":
+ [
+ {
+	"name": "backwater-shotgun",
+  	"shootY": -1,
+    "x":10,
+  	"reload": 50,
+  	"ejectEffect": "none",
+    "mirror": "true",
+    "alternate": "true",
+  	"recoilAmount": 2,
+  	"rotate": "true",
+  	"shootSound": "pew",
+  	"bullet": 
+	{
+    	"type": "ShrapnelBulletType",
+    	"length": 95,
+    	"damage": 62,
+    	"width": 48,
+    	"lifeTime": 35,
+		"speed": 2.3,
+    	"serrationLenScl": 2,
+    	"serrationSpaceOffset": 1,
+    	"serrationFadeOffset": 0,
+    	"serrations": 15,
+    	"serrationWidth": 60,
+    	"fromColor": d06b53,
+    	"toColor": ffa665,
+    		
+		"shootEffect": "sparkShoot",
+    	"smokeEffect": "sparkShoot"
+    }
+ }
+ ],
+ "research":
+ {
+	"parent": "ambassador",
+	"requirements": 
+	[
+    	plastanium/2000,
+    	thorium/2500,
+    	graphite/3000,
+    	silicon/3500
+	]
+ }	
+}

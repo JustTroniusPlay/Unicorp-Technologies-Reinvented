@@ -1,0 +1,96 @@
+{
+"flying": "true",
+"localizedName": "Nebula",
+"description": "Unicorp's experimental support Tier 2 model. Fires huge clots of healing plasma.",
+"speed": 1.2,
+"hitSize": 10,
+"range": 120,
+"accel": 0.11,
+"drag": 0.07,
+"engineSize": 2,
+"health": 800,
+"buildSpeed": 1,
+"rotateSpeed": 2,
+"armor": 4,
+"mineTier": 2,
+"mineSpeed": 4,
+"itemCapacity": 50,
+"weapons":
+[
+{
+ "name": "plasma-emitter",
+ "recoil": 2,
+ "shake": 2,
+ "shootSound": "laserblast",
+ "mirror": false,
+ "firstShotDelay": 25,
+ "x": 0,
+ "y": 0,
+ "shootY": -2,
+ "smokeEffect": "sparkShoot",
+ "alternate": false,
+ "rotate": true,
+ "rotateSpeed": 2.5,
+ "reload": 75,
+ "ejectEffect": "none",
+ "cooldownTime": 40,
+ "soundPitchMin": 2,
+ "bullet": 
+ {
+    "type": "BasicBulletType",
+    "width": 28,
+    "height": 28,
+    "collidesTeam": true,
+    "lifeTime": 40,
+    "speed": 2.7,
+    "hitEffect": "hitLaser",
+    "despawnEffect": "greenBomb",
+    "colors": [00cc00, 00e600],
+    "hitSound": "plasmaboom",
+    "healPercent": 20,
+    "splashDamageRadius": 25,
+    "splashDamage": 40,
+    "shootEffect":
+    { 
+      "type": "MultiEffect",
+      "effects": 
+      [ 
+        { 
+          "type": "ParticleEffect",
+          "length": -10,
+          "baseLength": 10,
+          "particles": 3,
+          "sizeFrom": 0,
+          "sizeTo": 3,
+          "lifetime": 15,
+          "fromColor": 00cc00,
+          "toColor": 00cc00  
+        },
+        { 
+          "type": "ParticleEffect",
+          "length": -6,
+          "baseLength": 6,
+          "particles": 4,
+          "sizeFrom": 1,
+          "sizeTo": 2,
+          "lifetime": 10,
+          "fromColor": 00e600,
+          "toColor": 00e600,  
+        } 
+      ] 
+    }         
+  }
+}
+],
+"research":
+{
+  "parent": "aegis",
+  "requirements": 
+  [
+    silicon/1500,
+    graphite/2500,
+    titanium/1250
+  ]
+},
+"details": "[blue] SPAAAAAACE!"
+}

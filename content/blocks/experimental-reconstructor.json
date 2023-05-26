@@ -1,0 +1,39 @@
+{
+  "type": "Reconstructor",
+"name": "Unicorp Experimental Reconstructor",
+"description": "Upgrades inputted Unicorp units to the third tier.",
+"size": "5",
+"health": 2000,
+"consumes": 
+{
+  "power": 8,
+  "items": 
+  {
+    "items": 
+    [
+    silicon/900,
+    graphite/1000,
+    phase-fabric/200,
+    thorium/800
+    ]
+  }
+},
+"constructTime": 3000,
+"requirements": 
+[
+  copper/2000,
+  lead/1600,
+  silicon/1000,
+  surge-alloy/200,
+  thorium/1000
+],
+"upgrades": 
+[
+  ["blaze", "razor"],
+  ["nebula", "enforcer"],
+  ["backwater","scarab"],
+  ["mule","outlander"]
+],
+"category": "units",
+"research": "unicorp-reconstructor"
+}

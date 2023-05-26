@@ -1,0 +1,63 @@
+{
+ "name": "Outlander",
+ "flying": true,
+ "description": "Unicorp's experimental model. Works pretty much like a mobile meltdown.",
+ "hitsize": 38,
+ "drag": 0.07,
+ "accel": 0.2,
+ "speed": 0.75,
+ "health": 900,
+ "rotateSpeed": 2.0,
+ "armor": 6,
+ "lowAltitude": true,
+ "rotateShooting": true,
+ "range": 140,
+ "isCounted": false,
+ "itemCapacity": 80,
+ "engineOffset": 11.2,
+ "engineSize": 5,
+ "weapons":
+    [
+    {
+        "name": "outlander-meltdown",
+        "reload": 300,
+        "x": 0,
+        "y": 4.6,
+        "mirror": false,
+        "continuous": true,
+        "shootStatus": "slow",
+        "chargeSound": "Sounds.lasercharge2",
+        "shootSound": "beam",
+        "recoil": 5,
+        "shootCone": 10,
+        "firstShotDelay": 5,
+        "shootStatusDuration": 100,
+        "cooldownTime": 225,
+        "ejectEffect": "none",
+        "bullet": 
+        {
+            "type": "ContinuousLaserBulletType",
+            "damage": 35,
+            "length": 150,
+            "drawSize": 330,
+            "lifetime": 100,
+            "buildingDamageMultiplier": 1.2,
+            "incendChance": 0.2,
+            "fadeTime": 15,
+            "incendAmount": 1,
+            "incendSpread": 5,
+            "colors": [d06b53, ffa665]
+        }
+    }
+    ],
+ "research":
+ {
+    "parent": "mule",
+    "requirements": 
+    [
+        silicon/1500,
+        graphite/2500,
+        titanium/1250
+    ]
+ }
+}

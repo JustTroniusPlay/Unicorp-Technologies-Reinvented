@@ -1,0 +1,41 @@
+{
+ "name": "Ambassador",
+ "flying": true,
+ "description": "Unicorp's simplest and first model of the mining drone.",
+ "drag": 0.08,
+ "hitsize": 15,
+ "rotateSpeed": 1.7,
+ "accel": 0.13,
+ "speed": 1.7,
+ "health": 300,
+ "engineSize": 3,
+ "lowAltitude": false,
+ "engineOffset": 6.5,
+ "range": 60,
+ "isCounted": false,
+ "mineTier": 4,
+ "mineSpeed": 6,
+ "playerControllable": true,
+ "mineHardnessScaling": true,
+ "mining": true,
+ "itemCapacity": 100,
+ "defaultController": "minerAI",
+ "mineItems": 
+ [
+      "copper",
+      "lead",
+      "titanium",
+      "thorium"
+ ],
+ "research":
+ {
+ "parent": "unicorp-assembler",
+ "requirements": 
+ [
+       silicon/1500,
+       titanium/1500,
+       metaglass/1000
+ ]
+ },
+ "details": "Company does not take responsibility for any spontaneous breakdowns."
+}

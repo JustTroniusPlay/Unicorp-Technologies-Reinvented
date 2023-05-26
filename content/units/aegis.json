@@ -1,0 +1,32 @@
+{
+       "name": "Aegis",
+       "flying": true,
+       "hovering": true,
+       "description": "Unicorp's smallest protection drone. Creates a strong power field around it to defend everything including itself, since it's very frail.",
+       "drag": 0.08,
+       "hitsize": 7,
+       "rotateSpeed": 4,
+       "accel": 0.1,
+       "speed": 2,
+       "health": 50,
+       "engineSize": 0,
+       "engineOffset": 0,
+       "lowAltitude": true,
+       "range": 60,
+       "isCounted": false,
+       "itemCapacity": 20,
+       "abilities": 
+       [
+       {
+        "type": "mindustry.entities.abilities.ForceFieldAbility",
+        "radius": 40,
+        "regen": 0.25,
+        "max": 1000,
+        "cooldown": 360
+       }
+       ],
+       "research":
+       {
+              "parent": "unicorp-assembler"
+       }
+}

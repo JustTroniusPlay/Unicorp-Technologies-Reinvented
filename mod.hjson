@@ -1,0 +1,10 @@
+{
+  "name": "Unicorp-technologies",
+  "displayName": "Unicorp Technologies Reinvented",
+  "author": "Original: CancerGuy/Brickhead. Remaker: JustTroniusPlay",
+  "description": "Unicorp presents to you their various units for mining purpose and for assault tactics.
+  P.S. This mod may need some balancing. If you find bugs or think the content needs tweaking, just message on Discord(TroniusPlay#4386) or Github.",
+  "version": 0.1,
+  "minGameVersion": "140",
+  "hidden": false, 
+}
