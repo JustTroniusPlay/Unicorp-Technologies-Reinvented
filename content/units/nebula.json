@@ -1,6 +1,6 @@
 {
-"flying": "true",
-"localizedName": "Nebula",
+"flying": true,
+"name": "Nebula",
 "description": "Unicorp's experimental support Tier 2 model. Fires huge clots of healing plasma.",
 "speed": 1.2,
 "hitSize": 10,
@@ -48,6 +48,8 @@
     "colors": [00cc00, 00e600],
     "hitSound": "plasmaboom",
     "healPercent": 20,
+    "damage": 15,
+    "buildingDamageMultiplier": 0.2,
     "splashDamageRadius": 25,
     "splashDamage": 40,
     "shootEffect":

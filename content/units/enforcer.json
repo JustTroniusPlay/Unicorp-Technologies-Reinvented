@@ -51,7 +51,7 @@
         ],
  "research":
  {
- "parent": "andromeda",
+ "parent": "nebula",
  "requirements": 
  [
        silicon/7000,
