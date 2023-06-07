@@ -10,10 +10,9 @@
   {
     "items": 
     [
-    silicon/80,
-    graphite/120,
+    silicon/120,
+    graphite/80,
     metaglass/100,
-    lead/90
     ]
   }
 },
