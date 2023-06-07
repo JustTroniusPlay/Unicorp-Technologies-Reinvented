@@ -14,6 +14,8 @@
  "range": 120,
  "mineTier": 7,
  "mineSpeed": 15,
+ "defaultCommand": "mine",
+ "controller": "minerAI",
  "itemCapacity": 250,
  "armor": 6,
  "weapons":
