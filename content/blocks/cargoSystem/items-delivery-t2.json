@@ -9,6 +9,7 @@
     "unitType": "bee",
     "itemCapacity": 150,
     "liquidCapacity": 200,
+    "separateItemCapacity": true,
     "requirements": 
     [
 		"titanium/200",

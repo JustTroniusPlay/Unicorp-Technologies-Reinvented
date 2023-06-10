@@ -8,6 +8,7 @@
 
     "unitType": "plover",
     "itemCapacity": 70,
+    "separateItemCapacity": true,
     "requirements": 
     [
 		"titanium/50",

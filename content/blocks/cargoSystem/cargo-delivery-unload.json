@@ -8,6 +8,7 @@
 
     "itemCapacity": 500,
     "liquidCapacity": 1000,
+    "separateItemCapacity": true,
     "requirements": 
     [
 		"titanium/80",
