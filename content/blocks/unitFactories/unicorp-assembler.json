@@ -11,18 +11,18 @@
     "unit": "surge",
     "requirements": 
     [
-      coal/15,
-      silicon/10,
-      lead/10
+      "coal/15",
+      "silicon/10",
+      "lead/10"
     ],
     "time": 180},
   {
-    "unit": "aegis",
+    "unit": "Aegis",
     "requirements": 
     [
-      graphite/15,
-      silicon/10,
-      metaglass/5
+      "graphite/15",
+      "silicon/10",
+      "metaglass/5"
     ],
     "time": 360
   },
@@ -30,9 +30,9 @@
     "unit":"ambassador",
     "requirements": 
     [
-      silicon/30,
-      titanium/30,
-      metaglass/20
+      "silicon/30",
+      "titanium/30",
+      "metaglass/20"
    ],
    "time": 650
   },
@@ -40,9 +40,9 @@
     "unit":"symbol",
     "requirements": 
     [
-      silicon/30,
-      titanium/10,
-      graphite/20
+      "silicon/30",
+      "titanium/10",
+      "graphite/20"
    ],
    "time": 420
   }
@@ -50,9 +50,9 @@
 "itemCapacity": 60,
 "requirements": 
 [
-  thorium/50,
-  titanium/140,
-  silicon/70
+  "thorium/50",
+  "titanium/140",
+  "silicon/70"
 ],
 "category": "units",
 "research": "mono"

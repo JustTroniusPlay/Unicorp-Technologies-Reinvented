@@ -1,7 +1,7 @@
 {
  "name": "Mule",
  "flying": true,
- "description": "Unicorp's experimental flare-like model. Can stockpile huge amounts of resources for it's size to allow fast transportation.",
+ "description": "Unicorp's experimental flare-like model. Can deal good amount of damage to destroy intruders on site and secure the territory.",
  "drag": 0.07,
  "range": 80,
  "hitsize": 17,
@@ -28,7 +28,7 @@
     "shootSound": "missile",
     "velocityRnd": 0.5,
     "inaccuracy": 5,
-    "reload": 65,
+    "reload": 120,
     "bullet": 
     {
         "type": "MissileBulletType",
@@ -46,8 +46,8 @@
         "trailColor": d06b53,
         "length": 13,
         "width": 4,
-        "buildingDamageMultiplier": 1.2,
-        "damage": 30
+        "buildingDamageMultiplier": 0.03,
+        "damage": 50
     }
  }
  ],
@@ -56,9 +56,9 @@
     "parent": "symbol",
     "requirements": 
     [
-        silicon/1500,
-        graphite/2500,
-        titanium/1250
+        "silicon/1500",
+        "graphite/2500",
+        "titanium/1250"
     ]
  },
  "details": "Unicorp really tries to provide good service to their customers, and Mule is the definition of that ;)"

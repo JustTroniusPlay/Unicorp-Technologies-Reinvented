@@ -7,8 +7,8 @@ blaze.constructor = () => extend(UnitEntity, {});
 const razor = extendContent(UnitType, "razor", {});
 razor.constructor = () => extend(UnitEntity, {});
 
-const aegis = extendContent(UnitType, "aegis", {});
-aegis.constructor = () => extend(UnitEntity, {});
+const Aegis = extendContent(UnitType, "Aegis", {});
+Aegis.constructor = () => extend(UnitEntity, {});
 
 const enforcer = extendContent(UnitType, "enforcer", {});
 enforcer.constructor = () => extend(UnitEntity, {});

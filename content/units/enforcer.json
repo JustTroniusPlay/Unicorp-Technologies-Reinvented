@@ -54,10 +54,10 @@
  "parent": "nebula",
  "requirements": 
  [
-       silicon/7000,
-       plastanium/5500,
-       thorium/6000,
-       surge-alloy/500
+       "silicon/7000",
+       "plastanium/5500",
+       "thorium/6000",
+       "phase-fabric/200"
  ]
  }
 }

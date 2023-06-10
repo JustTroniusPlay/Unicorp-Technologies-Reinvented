@@ -35,7 +35,7 @@
     {
     	"type": "ShrapnelBulletType",
     	"length": 105,
-    	"damage": 162,
+    	"damage": 82,
     	"width": 48,
     	"lifeTime": 40,
     	"serrationLenScl": 2,
@@ -86,10 +86,10 @@
         "parent": "backwater",
         "requirements": 
         [     
-            plastanium/6000,
-            surge-alloy/2000,
-            silicon/7000,
-            phase-fabric/700
+            "plastanium/6000",
+            "surge-alloy/2000",
+            "silicon/7000",
+            "phase-fabric/700"
         ]
     }
 }

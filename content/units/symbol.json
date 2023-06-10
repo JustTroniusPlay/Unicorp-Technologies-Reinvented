@@ -48,12 +48,6 @@
   ],
  "research":
  {
-    "parent": "unicorp-assembler",
-    "requirements": 
-    [
-        silicon/1500,
-        graphite/2500,
-        titanium/1250
-    ]
+    "parent": "unicorp-assembler"
  }
 }

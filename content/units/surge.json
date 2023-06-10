@@ -57,11 +57,6 @@
   ],
   "research": 
   {
-    "parent": "unicorp-assembler",
-    "requirements": 
-    [
-      coal/1500
-      silicon/1200
-    ]
+    "parent": "unicorp-assembler"
   }
 }

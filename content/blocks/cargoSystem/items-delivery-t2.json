@@ -1,0 +1,34 @@
+{
+    "type": "UnitCargoLoader",
+    "name": "Unicorp cargo delivery",
+    "description": "Unicorps second tier of cargo delivery system. Can transfer more items and faster than before!",
+
+    "size": 3,
+    "health": 700,
+
+    "unitType": "bee",
+    "itemCapacity": 150,
+    "liquidCapacity": 200,
+    "requirements": 
+    [
+		"titanium/200",
+		"lead/200",
+		"silicon/160",
+        "thorium/100",
+        "metaglass/100"
+	],
+    "category": "distribution",
+
+    "buildTime": 300,
+
+    "hasItems": true,
+	"hasPower": true,
+    "hasLiquids": true,
+    "consumes":
+    {
+        "power": 4,
+        "liquid":"water/2"
+    },
+
+    "research": "items-delivery"
+}

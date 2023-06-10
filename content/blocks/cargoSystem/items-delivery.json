@@ -1,0 +1,30 @@
+{
+    "type": "UnitCargoLoader",
+    "name": "Unicorp items delivery",
+    "description": "Unicorps first iteration of cargo delivery system. You will never gonna need those complicated proccesors ever again!",
+
+    "size": 2,
+    "health": 400,
+
+    "unitType": "plover",
+    "itemCapacity": 70,
+    "requirements": 
+    [
+		"titanium/50",
+		"lead/100",
+		"silicon/80",
+		"copper/150"
+	],
+    "category": "distribution",
+
+    "buildTime": 200,
+
+    "hasItems": true,
+	"hasPower": true,
+    "consumes":
+    {
+        "power": 2
+    },
+
+    "research": "unicorp-assembler"
+}

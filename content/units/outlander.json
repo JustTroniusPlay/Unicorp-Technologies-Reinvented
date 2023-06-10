@@ -55,9 +55,9 @@
     "parent": "mule",
     "requirements": 
     [
-        silicon/1500,
-        graphite/2500,
-        titanium/1250
+        "silicon/1500",
+        "graphite/2500",
+        "titanium/1250"
     ]
  }
 }

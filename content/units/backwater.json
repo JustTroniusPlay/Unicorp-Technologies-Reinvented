@@ -37,7 +37,7 @@
 	{
     	"type": "ShrapnelBulletType",
     	"length": 95,
-    	"damage": 62,
+    	"damage": 42,
     	"width": 48,
     	"lifeTime": 35,
 		"speed": 2.3,
@@ -59,10 +59,10 @@
 	"parent": "ambassador",
 	"requirements": 
 	[
-    	plastanium/2000,
-    	thorium/2500,
-    	graphite/3000,
-    	silicon/3500
+    	"plastanium/2000",
+    	"thorium/2500",
+    	"graphite/3000",
+    	"silicon/3500"
 	]
  }	
 }

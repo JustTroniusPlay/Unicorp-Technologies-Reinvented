@@ -57,10 +57,12 @@
  {
 	"parent": "surge",
 	"requirements": 
-	[
-    	silicon/1800,
-    	lead/1200
-	]
+    [
+        "silicon/1500",
+        "graphite/2500",
+        "titanium/1250",
+		"coal/1750"
+    ]
  },
  "details": "Unicorp has made some modifications and changes for Blaze. Taking Surge as a basis, now Blaze uses flame weapons in his arsenal, which also makes him a more advanced version of Surge, capable of not only protecting the owner from weak threats, but even going into battle organizing sabotages."
 }

@@ -1,0 +1,22 @@
+{
+    "name": "Bee",
+    "description": "Second tier of items delivery drones.",
+    "flying": true,
+	"type": "tether",
+	"hitSize": 12,
+	"health": 100,
+	"range": 0,
+	"itemCapacity": 150,
+	"speed": 4,
+	"rotateSpeed": 6,
+	"rotateShooting": false,
+	"accel": 0.1,
+	"drag": 0.03,
+    "engineSize": 4.5,
+    "engineOffset": 7,
+	"defaultController": "CargoAI",
+    "isEnemy": false,
+    "allowedInPayloads": false,
+    "logicControllable": false,
+    "playerControllable": false
+}

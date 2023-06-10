@@ -1,0 +1,26 @@
+{
+    "name": "Plover",
+    "description": "Items delivery drone. First tier in the field of cargo transportation and proof of successful cooperation of Unicorp tech. and AirSupport corp!",
+    "flying": true,
+	"type": "tether",
+	"hitSize": 8,
+	"health": 50,
+	"range": 0,
+	"itemCapacity": 70,
+	"speed": 2,
+	"rotateSpeed": 6,
+	"rotateShooting": false,
+	"accel": 0.08,
+	"drag": 0.03,
+    "engineSize": 2,
+    "engineOffset": 6,
+	"defaultController": "CargoAI",
+    "isEnemy": false,
+    "allowedInPayloads": false,
+    "logicControllable": false,
+    "playerControllable": false,
+
+    
+    "details": "From AirSupport mod on v6. This whole unit tree was made originally by GenericSomeone.",
+	"hideDetails": false
+}

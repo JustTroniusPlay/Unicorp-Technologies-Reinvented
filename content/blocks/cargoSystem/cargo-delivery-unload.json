@@ -1,0 +1,26 @@
+{
+    "type": "UnitCargoUnloadPoint",
+    "name": "Unicorp cargo destination",
+    "description": "Unicorps unloading point of cargo delivery system. All delivery ships are gonna transfer items here.",
+
+    "size": 3,
+    "health": 400,
+
+    "itemCapacity": 500,
+    "liquidCapacity": 1000,
+    "requirements": 
+    [
+		"titanium/80",
+		"lead/120",
+		"silicon/50"
+	],
+    "category": "distribution",
+
+    "hasItems": true,
+    "hasLiquids": true,
+    "outputsLiquid": true,
+    "outputItems": true,
+    "buildTime": 200,
+
+    "research": "items-delivery"
+}

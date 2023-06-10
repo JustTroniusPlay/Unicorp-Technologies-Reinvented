@@ -1,5 +1,5 @@
 {
-  "type": "Reconstructor",
+"type": "Reconstructor",
 "name": "Unicorp Experimental Reconstructor",
 "description": "Upgrades inputted Unicorp units to the third tier.",
 "size": "5",
@@ -11,21 +11,21 @@
   {
     "items": 
     [
-    silicon/900,
-    graphite/1000,
-    phase-fabric/200,
-    thorium/800
+    "silicon/900",
+    "graphite/1000",
+    "phase-fabric/200",
+    "thorium/800"
     ]
   }
 },
 "constructTime": 3000,
 "requirements": 
 [
-  copper/2000,
-  lead/1600,
-  silicon/1000,
-  surge-alloy/200,
-  thorium/1000
+  "copper/2000",
+  "lead/1600",
+  "silicon/1000",
+  "surge-alloy/200",
+  "thorium/1000"
 ],
 "upgrades": 
 [

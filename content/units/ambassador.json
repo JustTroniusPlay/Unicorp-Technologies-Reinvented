@@ -29,13 +29,7 @@
  ],
  "research":
  {
- "parent": "unicorp-assembler",
- "requirements": 
- [
-       silicon/1500,
-       titanium/1500,
-       metaglass/1000
- ]
+ "parent": "unicorp-assembler"
  },
  "details": "Company does not take responsibility for any spontaneous breakdowns."
 }

@@ -1,6 +1,7 @@
-{"type": "Reconstructor",
+{
+"type": "Reconstructor",
 "name": "Unicorp Reconstructor",
-"description": "Upgrades inputted Unicorp drones to the second tier. Promotions for everyone.",
+"description": "Upgrades inputted Unicorp drones to the second tier. Simple and good.",
 "size": "3",
 "health": 700,
 "consumes": 
@@ -10,24 +11,24 @@
   {
     "items": 
     [
-    silicon/120,
-    graphite/80,
-    metaglass/100,
+    "silicon/120",
+    "graphite/80",
+    "metaglass/100"
     ]
   }
 },
 "constructTime": 1800,
 "requirements": 
 [
-  copper/200,
-  graphite/320,
-  silicon/250,
-  thorium/250
+  "copper/200",
+  "graphite/320",
+  "silicon/250",
+  "thorium/250"
 ],
 "upgrades": 
 [
   ["surge", "blaze"],
-  ["aegis", "nebula"],
+  ["Aegis", "nebula"],
   ["ambassador","backwater"],
   ["symbol","mule"]
 ],
