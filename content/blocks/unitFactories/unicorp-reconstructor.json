@@ -30,7 +30,8 @@
   ["surge", "blaze"],
   ["Aegis", "nebula"],
   ["ambassador","backwater"],
-  ["symbol","mule"]
+  ["symbol","mule"],
+  ["leptanillinid","barychelid"]
 ],
 "category": "units",
 "research": "unicorp-assembler"

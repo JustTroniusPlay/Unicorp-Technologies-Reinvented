@@ -15,7 +15,8 @@
       "silicon/10",
       "lead/10"
     ],
-    "time": 180},
+    "time": 180
+  },
   {
     "unit": "Aegis",
     "requirements": 
@@ -45,6 +46,16 @@
       "graphite/20"
    ],
    "time": 420
+  },
+  {
+    "unit": "leptanillinid",
+    "requirements": 
+    [
+      "silicon/10",
+      "titanium/30",
+      "graphite/5"
+   ],
+   "time": 240
   }
 ],
 "itemCapacity": 60,

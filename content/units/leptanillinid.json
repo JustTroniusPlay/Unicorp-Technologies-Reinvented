@@ -1,0 +1,92 @@
+{
+"type": "legs",
+"name": "Leptanillinid",
+"description": "Unicorp's crawler-like experimental model. Have shotgun-like weapon for close range combat.",
+"speed": 0.7,
+"hitSize": 10,
+"rotateSpeed": 3,
+"health": 1000,
+"drag": 0.3,
+"immunities": ["burning", "melting"],
+"legCount": 4,
+"legLength": 9,
+"legTrns": 1,
+"legMoveSpace": 1.4,
+"legBaseOffSet": 1.4,
+"itemCapacity": 75,
+"hovering": true,
+"armor": 6,
+"range": 45,
+"allowLegStep": true,
+"visulElevation": 0.3,
+"rotateShooting": false,
+"weapons":
+[
+  {
+  "name":"leptanillinid-shotgun",
+  "mirror": false,
+  "rotate": false,
+  "reload": 60,
+  "recoil": 2,
+  "shootY": 6,
+  "x": 0,
+  "y": 1.2,
+  "shootSound": "shotgun",
+  "shootcone": 15,
+  "inaccuracy": 10,
+  "range": 45,
+  "smokeEffect": "smokeCloud",
+  "soundPitchMin": 1,
+  "ejectEffect": "casing2",
+  "shoot": 
+      {
+        "type": "ShootSpread",
+        "shots": 6,
+        "spread": 4
+      },
+  "bullet": 
+      {  
+      "type": "BasicBulletType",
+      "speed": 5,
+      "damage": 30,
+      "sprite": "shell",
+      "knockback": 1.5,
+      "lifetime": 10,
+      "width": 15,
+      "hitShake": 2,
+      "hitzize": 5,
+      "backColor": d06b53,
+      "frontColor": ffa665,
+      "shootEffect":
+        { "type": "MultiEffect",
+          "effects": 
+          [ 
+            { 
+              "type": "ParticleEffect",
+              "length": 4,
+              "baseLength": 4,
+              "particles": 4,
+              "sizeFrom": 0.3,
+              "sizeTo": 0.5,
+              "lifetime": 20,
+              "colorFrom": d06b53,
+              "colorTo": ffa665  
+            } 
+          ] 
+        }         
+      }
+    }
+  ],
+"research":
+{
+  "parent": "unicorp-assembler",
+  "requirements": 
+  [
+    "silicon/1000",
+    "graphite/500",
+    "titanium/3000"
+  ]
+},
+"details": "[purple]The heart of the Unicorp's unit swarm."
+}
+ 

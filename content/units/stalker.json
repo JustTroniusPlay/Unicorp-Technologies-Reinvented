@@ -1,0 +1,172 @@
+{
+    "type": "legs",
+    "name": "Stalker",
+    "description": "Behemoth in closed quartes combat. Use devastating shotgun weapons and fires sapping laser beams at enemy targets. Have large amount of health, but have very slow movement.",
+    "health": 4250,
+    "armor": 25,
+    "speed": 0.3,
+    "hitSize": 12,
+    "immunities": ["burning", "melting", "spore-slowed", "tarred", "sapped"],
+    "legCount": 6,
+    "legLength": 25,
+    "legTrns": 0.8,
+    "legMoveSpace": 1,  
+    "legBaseOffSet": 2,
+    "itemCapacity": 140,
+    "hovering": true,
+    "allowLegStep": true,
+    "visulElevation": 0.8,
+    "rotateShooting": true,
+    "weapons":
+[
+  {
+  "name":"stalker-shotgun",
+  "mirror": true,
+  "rotate": false,
+  "reload": 60,
+  "recoil": 2,
+  "shootY": 6,
+  "x": 5,
+  "y": 5,
+  "shootSound": "shotgun",
+  "shootcone": 10,
+  "inaccuracy": 7,
+  "range": 45,
+  "smokeEffect": "smokeCloud",
+  "soundPitchMin": 1,
+  "ejectEffect": "casing2",
+  "shoot": 
+      {
+        "type": "ShootSpread",
+        "shots": 8,
+        "spread": 3
+      },
+  "bullet": 
+      {  
+      "type": "BasicBulletType",
+      "speed": 5,
+      "damage": 80,
+      "sprite": "shell",
+      "knockback": 1.5,
+      "lifetime": 10,
+      "width": 15,
+      "hitShake": 2,
+      "hitzize": 5,
+      "backColor": d06b53,
+      "frontColor": ffa665,
+      "shootEffect":
+        { "type": "MultiEffect",
+          "effects": 
+          [ 
+            { 
+              "type": "ParticleEffect",
+              "length": 4,
+              "baseLength": 4,
+              "particles": 4,
+              "sizeFrom": 0.3,
+              "sizeTo": 0.5,
+              "lifetime": 20,
+              "colorFrom": d06b53,
+              "colorTo": ffa665  
+            } 
+          ] 
+        }         
+      }
+    },
+    {
+        "name":"stalker-shotgun",
+        "mirror": true,
+        "rotate": false,
+        "reload": 60,
+        "recoil": 2,
+        "shootY": 6,
+        "x": 5,
+        "y": 0,
+        "shootSound": "shotgun",
+        "shootcone": 10,
+        "inaccuracy": 7,
+        "range": 45,
+        "smokeEffect": "smokeCloud",
+        "soundPitchMin": 1,
+        "ejectEffect": "casing2",
+        "shoot": 
+            {
+              "type": "ShootSpread",
+              "shots": 8,
+              "spread": 3
+            },
+        "bullet": 
+            {  
+            "type": "BasicBulletType",
+            "speed": 5,
+            "damage": 60,
+            "sprite": "shell",
+            "knockback": 1.5,
+            "lifetime": 10,
+            "width": 15,
+            "hitShake": 2,
+            "hitzize": 5,
+            "backColor": d06b53,
+            "frontColor": ffa665,
+            "shootEffect":
+              { "type": "MultiEffect",
+                "effects": 
+                [ 
+                  { 
+                    "type": "ParticleEffect",
+                    "length": 4,
+                    "baseLength": 4,
+                    "particles": 4,
+                    "sizeFrom": 0.3,
+                    "sizeTo": 0.5,
+                    "lifetime": 20,
+                    "colorFrom": d06b53,
+                    "colorTo": ffa665  
+                  } 
+                ] 
+              }         
+            }
+    },
+    {
+        "name": "stalker-attractor",
+        "mirror": true,
+        "x": 2,
+        "y": 2,
+        "recoil": 0,
+        "controllable": false,
+        "autoTarget": true,
+        "rotate": true,
+        "cooldownTime": 40,
+        "reload": 10,
+        "reflectable": false,
+        "absorbable": false,
+        "hittable": false,
+        "bullet":
+        {
+          "type": "SapBulletType",
+          "lifetime": 40,
+          "length": 100,
+          "rangeOverride": 100,
+          "speed": 0,
+          "damage": 0.1,
+          "colors": [d06b53, ffa665],
+          "beamEffectSize": 2,
+          "sapStrength": 25,
+          "knockback": -5
+        }
+        
+
+    }
+  ],
+  "research":
+{
+  "parent": "barychelid",
+  "requirements": 
+  [
+    "silicon/10000",
+    "graphite/5000",
+    "titanium/7000",
+    "thorium/5000"
+  ]
+}
+}

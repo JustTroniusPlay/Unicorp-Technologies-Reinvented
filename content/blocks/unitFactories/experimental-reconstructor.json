@@ -32,7 +32,8 @@
   ["blaze", "razor"],
   ["nebula", "enforcer"],
   ["backwater","scarab"],
-  ["mule","outlander"]
+  ["mule","outlander"],
+  ["barychelid", "stalker"]
 ],
 "category": "units",
 "research": "unicorp-reconstructor"

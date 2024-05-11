@@ -24,6 +24,7 @@
     "y": -5,
     "mirror": false,
     "ejectEffect": "none",
+    "shoots": 3,
     "rotate": true,
     "shootSound": "missile",
     "velocityRnd": 0.5,
