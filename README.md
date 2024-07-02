@@ -35,4 +35,7 @@ Cargo delivery system - special blocks that worked like Erekir items transportat
 # Some credits.
 Originally this mod was created by [CnacerGuy](https://github.com/AzhurniyBaklan) and Brickhead. 
 But after they abandoned this mod, CancerGuy gave me permission to continue to develope this mod and to change it how I want.
-I make some changes to units behavior, stats and even retexture them a little. 
+I make some changes to units behavior, stats and even retextured them a little.
+
+
+Another thing to point out is that some of this mod content came from AirSupport mod that was created by [GenericSomeone](https://github.com/GenericSomeone). He too gave me permission to use data from his old repository to make something out of it. I was really glad to bring old units to new functionality! 
