@@ -1,5 +1,5 @@
 # Unicorp Technologies Reinvented
-Mod on game called [Mindustry](https://github.com/Anuken/Mindustry) by Anuken. 
+Mod for game called [Mindustry](https://github.com/Anuken/Mindustry) by Anuken. 
 
 # What is this mod about?
 This mod centered around various units to mine resources, protect your factories and attack enemies with powerful force!
