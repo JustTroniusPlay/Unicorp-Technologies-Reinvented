@@ -35,6 +35,8 @@ Outlander - flying attacker unit with big laser.
 
 Cargo delivery system - special blocks that worked like Erekir items transportation, but this version comes with two tiers.
 
+Special ships with good amount of payload capacity that can carry your units or other payloads for various needs.
+
 # Some credits.
 Originally this mod was created by [CancerGuy](https://github.com/AzhurniyBaklan) and Brickhead. 
 But after they abandoned this mod, CancerGuy gave me permission to continue to develope this mod and to change it how I want.
