@@ -1,0 +1,27 @@
+{
+    "name":"Hornet",
+    "description": "Next tier of payload ships. Can transfer more units and payloads. This time guys from R&D tried to give it a strong shield so it can unload troops before being destroyed by enemy defense. Still low amount of health, so be careful.",
+    "hitSize": 28,
+    "flying": true,
+    "health": 240,
+	"range": 0,
+	"itemCapacity": 0,
+	"speed": 1.5,
+	"rotateSpeed": 3,
+	"accel": 0.1,
+	"drag": 0.02,
+	"engineOffset": 14,
+	"engineSize": 8,
+	"type":"payload",
+    "payloadCapacity": 1296,
+    "abilities": 
+    [
+    {
+        "type": "mindustry.entities.abilities.ForceFieldAbility",
+        "radius": 30,
+        "regen": 8,
+        "max": 8000,
+        "cooldown": 1000
+    }
+    ]
+}

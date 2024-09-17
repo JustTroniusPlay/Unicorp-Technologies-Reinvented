@@ -1,0 +1,52 @@
+{
+    "name": "Transportation ships fabricator",
+    "description": "This is the way to create special ships to transfer payloads and units.",
+    "health": 900,
+    "type":"unitFactory",
+    "size": 5,
+    "consumes": {"power": 5},
+    "plans":
+    [
+        {
+            "unit": "raven",
+            "requirements": 
+            [
+              "titanium/30",
+              "silicon/100",
+              "metaglass/15"
+            ],
+            "time": 600
+        },
+        {
+            "unit": "hornet",
+            "requirements":
+            [
+                "titanium/620",
+                "plastanium/120",
+                "silicon/800"
+            ],
+            "time": 1800
+        },
+        {
+            "unit": "egret",
+            "requirements":
+            [
+                "thorium/1200",
+                "silicon/1000",
+                "phase-fabric/500",
+                "plastanium/800"
+            ],
+            "time": 3600
+        }
+    ],
+    "requirements": 
+    [
+        "thorium/200",
+        "titanium/500",
+        "silicon/200",
+        "lead/150",
+        "copper/400"
+    ],
+    "category": "distribution",
+    "research": "items-delivery"
+}
