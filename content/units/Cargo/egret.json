@@ -1,0 +1,127 @@
+
+{
+    "name": "Egret",
+    "description": "Final version of payload transportation units line. Very big payload capacity give this ship capability to transport a whole army of units or large amount of resources. Egret very slow, but have a shield and even some basic weaponry to protect itself from small threats.",
+    "flying": true,
+    "hitSize": 56,
+	"health": 920,
+    "armor": 5,
+	"range": 0,
+	"itemCapacity": 0,
+	"speed": 0.5,
+	"rotateSpeed": 2,
+	"accel": 0.1,
+	"drag": 0.01,
+	"engineOffset": 46,
+	"engineSize": 6,
+	"type": "payload",
+    "faceTarget": false,
+    "lowAltitude": true,
+    "payloadCapacity": 6400,
+    "rotateShooting": false,
+    "abilities": 
+    [
+       {
+        "type": "mindustry.entities.abilities.ForceFieldAbility",
+        "radius": 60,
+        "regen": 10,
+        "max": 16000,
+        "cooldown": 2000
+        }
+    ],
+    "weapons":
+    [
+        {
+            "name": "egret-scatter",
+            "y": 10,
+            "x": 0,
+            "reload": 18,
+            "recoil": 1,
+            "inaccuracy": 17,
+            "mirror": false,
+            "controllable": false,
+            "autoTarget": true,
+            "rotate": true,
+            "targetGround": false,
+            "shootSound": "shootSnap",
+            "bullet":
+            {
+                "type": "FlakBulletType",
+                "damage": 1,
+                "lifetime": 60,
+                "speed": 3,
+                "range": 180,
+                "shootEffect": "shootSmall",
+                "width": 6,
+                "height": 8,
+                "hitEffect": "flakExplosion",
+                "splashDamage": 48,
+                "splashDamageRadius": 15,
+                "buildingDamageMultiplier": 0.01
+            }
+        },
+        {
+            "name": "egret-hail",
+            "x": 17,
+            "y": -2,
+            "recoil": 2,
+            "mirror": true,
+            "controllable": false,
+            "autoTarget": true,
+            "rotate": true,
+            "reload": 50,
+            "shootSound": "artillery",
+            "rotateSpeed": 3,
+            "targetAir": false,
+            "bullet":
+            {
+                "type": "ArtilleryBulletType",
+                "damage": 1,
+                "knockback": 0.8,
+                "hitEffect": "blastExplosion",
+                "sprite": "shell",
+                "hitSound": "explosion",
+                "lifetime": 60,
+                "speed": 3,
+                "range": 120,
+                "width": 11,
+                "hitShake": 2,
+                "height": 11,
+                "collides": true,
+                "collidesTiles": true,
+                "splashDamage": 50,
+                "splashDamageRadius": 15,
+                "buildingDamageMultiplier": 0.01,
+                "shootEffect":
+                { 
+                    "type": "MultiEffect",
+                    "effects": 
+                    [ 
+                        {   
+                            "type": "WaveEffect",
+                            "sizeFrom": 10,
+                            "sizeTo": 0,
+                            "lifetime": 15,
+                            "strokeFrom": 2,
+                            "strokeTo": 3,
+                            "colorFrom": "006400",
+                            "colorTo": "003c00"
+                        },
+                        { 
+                            "type": "ParticleEffect",
+                            "length": -4,
+                            "baseLength": 12,
+                            "particles": 10,
+                            "sizeFrom": 1,
+                            "sizeTo": 1,
+                            "lifetime": 15,
+                            "colorFrom": "006400",
+                            "colorTo": "003c00" 
+                        } 
+                    ] 
+                }         
+            }
+        }
+    ],
+    "research": "hornet"
+}

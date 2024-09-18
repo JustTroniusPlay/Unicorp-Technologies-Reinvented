@@ -26,6 +26,17 @@
                 "silicon/800"
             ],
             "time": 1800
+        },
+        {
+            "unit": "egret",
+            "requirements":
+            [
+                "thorium/1200",
+                "silicon/1000",
+                "phase-fabric/500",
+                "plastanium/800"
+            ],
+            "time": 3600
         }
     ],
     "requirements": 
